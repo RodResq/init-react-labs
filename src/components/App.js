@@ -6,9 +6,7 @@ export default class App extends React.Component {
         return (
             <div>
                 <h1>Hello World!</h1>
-                <Post title="Aprendendo react com Rocketset"/>
-                <Post title="React e top demais"/>
-                <Post title="React mais facil que Angular"/>
+                <h2>Meu primeiro app.</h2>
             </div>
         );
 
