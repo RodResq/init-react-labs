@@ -1,6 +1,7 @@
 import React from "react";
 import HelloWorld from "./components/HelloWorld";
 import SayMayName from "./components/SayMyName";
+import Pessoa from "./components/Pessoa";
 
 function App() {
     const nome = 'fulano';
@@ -13,9 +14,9 @@ function App() {
 
     return (
         <div className="App">
-            <HelloWorld />
             <SayMayName name="Mattheus" />
             <SayMayName name={nome} />
+            <Pessoa foto="https://via.placeholder.com/150" nome="Rodrigo" idade="34" profissao="Programador"/>
         </div>
     );
 }
