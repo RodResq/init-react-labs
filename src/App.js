@@ -1,5 +1,5 @@
 import React from "react";
-import HelloWorld from "./components/HelloWorld";
+import './index.css'
 import SayMayName from "./components/SayMyName";
 import Pessoa from "./components/Pessoa";
 
